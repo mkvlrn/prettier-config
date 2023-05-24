@@ -1,4 +1,4 @@
-# prettier-config-mkvlrn
+# @mkvlrn/prettier-config
 
 ## install
 

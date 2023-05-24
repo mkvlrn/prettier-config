@@ -1,6 +1,6 @@
 {
   "name": "@mkvlrn/prettier-config",
-  "version": "1.0.0",
+  "version": "20.0.0",
   "main": "config.json",
   "author": "Mike Valeriano <mkvlrn@gmail.com>",
   "license": "MIT",
@@ -17,5 +17,9 @@
   "peerDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.1.1",
     "prettier": "^2.8.8"
-  }
+  },
+  "files": [
+    "config.json",
+    "readme.md"
+  ]
 }

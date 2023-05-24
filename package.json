@@ -1,0 +1,21 @@
+{
+  "name": "@mkvlrn/prettier-config",
+  "version": "1.0.0",
+  "main": "config.json",
+  "author": "Mike Valeriano <mkvlrn@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mkvlrn/prettier-config"
+  },
+  "scripts": {
+    "ncu": "ncu --dep dev,peer -u"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  },
+  "peerDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "prettier": "^2.8.8"
+  }
+}

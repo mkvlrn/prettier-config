@@ -3,7 +3,7 @@
 ## install
 
 ```bash
-yarn add prettier \
+pnpm add prettier \
          @trivago/prettier-plugin-sort-imports \
          @mkvlrn/prettier-config -D
 ```

@@ -12,11 +12,11 @@
     "ncu": "ncu --dep dev,peer -u"
   },
   "devDependencies": {
-    "prettier": "^2.8.8"
+    "prettier": "^3.0.0"
   },
   "peerDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.1.1",
-    "prettier": "^2.8.8"
+    "prettier": "^3.0.0"
   },
   "files": [
     "config.json",

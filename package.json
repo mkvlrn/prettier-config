@@ -1,6 +1,6 @@
 {
   "name": "@mkvlrn/prettier-config",
-  "version": "2023.07.07-0",
+  "version": "",
   "main": "config.json",
   "author": "Mike Valeriano <mkvlrn@gmail.com>",
   "license": "MIT",

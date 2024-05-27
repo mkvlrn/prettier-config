@@ -1,6 +1,6 @@
 {
   "name": "@mkvlrn/prettier-config",
-  "version": "24.5.0",
+  "version": "24.5.1",
   "description": "Custom Prettier configuration for my projects",
   "type": "module",
   "keywords": [

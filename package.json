@@ -1,0 +1,28 @@
+{
+  "name": "@mkvlrn/prettier-config",
+  "version": "24.5.0",
+  "description": "Custom Prettier configuration for my projects",
+  "type": "module",
+  "keywords": [
+    "prettier",
+    "config",
+    "custom"
+  ],
+  "main": "prettier.config.js",
+  "files": [
+    "prettier.config.js",
+    "package.json",
+    "readme.md"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "author": "Mike Valeriano <mkvlrn@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5"
+  }
+}

@@ -27,7 +27,7 @@ jobs:
         run: |
           DATE_VERSION=$(date +"%y.%-m")
           LATEST_TAG=$(git describe --tags `git rev-list --tags --max-count=1`)
-          LATEST_TAG_DATE=$(echo $LATEST_TAG | cut -d '.' -f 1-2)
+          LATEST_TAG_DATE=$(echo $LATEST_TAG | cut -c 2- | cut -d '.' -f 1-2)
           LATEST_TAG_PATCH_VERSION=$(echo $LATEST_TAG | cut -d '.' -f 3)
 
           if [ "$DATE_VERSION" = "$LATEST_TAG_DATE" ]; then

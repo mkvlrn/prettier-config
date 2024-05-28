@@ -41,7 +41,5 @@ jobs:
           git tag "v$NEW_VERSION"
           git push origin "v$NEW_VERSION"
 
-      - uses: softprops/action-gh-release@v2
-
       - run: npm publish
 

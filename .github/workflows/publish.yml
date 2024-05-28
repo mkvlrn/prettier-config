@@ -20,7 +20,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           YEAR_FORMAT: "YY"
-          INITIAL_INREMENT: 1
+          INITIAL_INCREMENT: 1
 
       - uses: softprops/action-gh-release@v2
 

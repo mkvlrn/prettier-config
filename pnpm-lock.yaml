@@ -14,9 +14,6 @@ importers:
       prettier:
         specifier: ^3.2.5
         version: 3.2.5
-      typescript:
-        specifier: ^5.4.5
-        version: 5.4.5
 
 packages:
 
@@ -180,11 +177,6 @@ packages:
     resolution: {integrity: sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==}
     engines: {node: '>=4'}
 
-  typescript@5.4.5:
-    resolution: {integrity: sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==}
-    engines: {node: '>=14.17'}
-    hasBin: true
-
 snapshots:
 
   '@babel/code-frame@7.24.6':
@@ -343,5 +335,3 @@ snapshots:
       has-flag: 3.0.0
 
   to-fast-properties@2.0.0: {}
-
-  typescript@5.4.5: {}

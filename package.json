@@ -1,6 +1,6 @@
 {
   "name": "@mkvlrn/prettier-config",
-  "version": "24.5.1",
+  "version": "24.5.2",
   "description": "Custom Prettier configuration for my projects",
   "type": "module",
   "keywords": [
@@ -8,9 +8,9 @@
     "config",
     "custom"
   ],
-  "main": "prettier.config.js",
+  "main": ".prettierrc.json",
   "files": [
-    "prettier.config.js",
+    ".prettierrc.json",
     "package.json",
     "readme.md"
   ],
@@ -22,7 +22,6 @@
   "license": "ISC",
   "dependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
-    "prettier": "^3.2.5",
-    "typescript": "^5.4.5"
+    "prettier": "^3.2.5"
   }
 }

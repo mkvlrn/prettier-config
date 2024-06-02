@@ -6,8 +6,8 @@ ALL dependencies are installed with the package
 yarn add @mkvlrn/prettier-config -D
 ```
 
-```js
-// prettier.config.js
+```json
+// .prettierrc.json
 
-export { default } from '@mkvlrn/prettier-config';
+"@mkvlrn/prettier-config"
 ```

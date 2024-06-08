@@ -1,9 +1,12 @@
 {
   "$schema": "https://json.schemastore.org/prettierrc",
-  "plugins": ["@trivago/prettier-plugin-sort-imports", "prettier-plugin-tailwindcss"],
+  "plugins": [
+    "@trivago/prettier-plugin-sort-imports",
+    "prettier-plugin-tailwindcss"
+  ],
   "endOfLine": "lf",
   "jsxSingleQuote": true,
-  "printWidth": 100,
+  "printWidth": 80,
   "semi": true,
   "singleQuote": true,
   "trailingComma": "all",
@@ -11,5 +14,10 @@
   "importOrderSeparation": false,
   "importOrderSortSpecifiers": true,
   "importOrderCaseInsensitive": true,
-  "importOrderParserPlugins": ["typescript", "jsx", "decorators-legacy", "importAssertions"]
+  "importOrderParserPlugins": [
+    "typescript",
+    "jsx",
+    "decorators-legacy",
+    "importAssertions"
+  ]
 }

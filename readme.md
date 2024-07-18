@@ -3,7 +3,7 @@
 ALL dependencies are installed with the package
 
 ```bash
-yarn add @mkvlrn/prettier-config -D
+yarn add prettier @mkvlrn/prettier-config -D
 ```
 
 ```json

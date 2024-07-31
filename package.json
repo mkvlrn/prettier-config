@@ -11,6 +11,7 @@
   "main": "prettier.config.js",
   "files": [
     "prettier.config.js",
+    "prettier.config.d.ts",
     "package.json",
     "readme.md"
   ],

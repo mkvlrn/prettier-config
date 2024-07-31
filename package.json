@@ -8,9 +8,9 @@
     "config",
     "custom"
   ],
-  "main": ".prettierrc.json",
+  "main": "prettier.config.js",
   "files": [
-    ".prettierrc.json",
+    "prettier.config.js",
     "package.json",
     "readme.md"
   ],
